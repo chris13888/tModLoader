@@ -25,8 +25,11 @@ namespace Terraria.ModLoader
 		/// Constructor
 		/// </summary>
 		/// <param name="mod">The mod the recipe originates from.</param>
-		public ModRecipe(Mod mod) {
+		public ModRecipe(Mod mod, Tuple<string, int>[] ingredients, int[] tiles, int result, int stack = 1) {
 			this.mod = mod;
+			// Call SetResult
+			// Call AddIngredient
+			// Call AddTile
 		}
 
 		/// <summary>
